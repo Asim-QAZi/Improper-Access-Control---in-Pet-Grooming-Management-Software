@@ -1,6 +1,6 @@
 # Improper Access Control – allows admin creation from user account in Sourcecodester Pet Grooming Management Software
 
-- **Product Name:** Pet Grooming Management Software 1.0
+- **Product Name:** The SourceCodester Pet Grooming Management Software 1.0
 - **Vendor:** SourceCodester
 - **Product Page:**
   https://www.sourcecodester.com/php/18340/pet-grooming-management-software-download.html
@@ -9,7 +9,7 @@
 
 ## Description
 
-The **Pet Grooming Management Software** is vulnerable to **Improper Access Control**, allowing a normal authenticated user to **create an administrator account** by directly invoking an admin-only endpoint.
+The SourceCodester **Pet Grooming Management Software** is vulnerable to **Improper Access Control**, allowing a normal authenticated user to **create an administrator account** by directly invoking an admin-only endpoint.
 
 The application relies solely on **client-side UI restrictions** to prevent access to administrative functionality. However, **no server-side authorization checks** are implemented to verify the user’s role before processing privileged requests.
 
