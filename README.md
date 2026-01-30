@@ -1,4 +1,4 @@
-# Improper Access Control – allows admin creation from user account in Sourcecodester Pet Grooming Management Software
+#CVE-2026-1702 - Improper Access Control – allows admin creation from user account in Sourcecodester Pet Grooming Management Software
 
 - **Product Name:** The SourceCodester Pet Grooming Management Software 1.0
 - **Vendor:** SourceCodester
